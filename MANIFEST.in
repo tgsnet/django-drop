@@ -3,9 +3,11 @@ include LICENSE
 include CHANGELOG.rst
 include README.rst
 include runtests.sh
+include drop/gulpfile.js
 recursive-include docs *
 recursive-include drop/locale *
 recursive-include drop/templates *
 recursive-include drop/media *
+recursive-include drop/static *
 recursive-include tests *
 recursive-exclude * *.pyc
