@@ -4,8 +4,8 @@ include CHANGELOG.rst
 include README.rst
 include runtests.sh
 recursive-include docs *
-recursive-include shop/locale *
-recursive-include shop/templates *
-recursive-include shop/media *
+recursive-include drop/locale *
+recursive-include drop/templates *
+recursive-include drop/media *
 recursive-include tests *
 recursive-exclude * *.pyc
